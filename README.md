@@ -5,6 +5,8 @@ This is an implementation of DHCP starvation attack on wireless network. This at
 * dhcp.py simulates this process. It works even in the absence of other clients.
 * dhcp.sh and dhcp_wep.sh use traditional attack vector using random MAC. However the attacker loses network connectivity.
 
+http://www.freesoft.org/CIE/RFC/2131/25.htm
+https://support.microsoft.com/en-us/kb/159822
 
 # screens attached
 ![screen-1](/screen-1.png?raw=true "Screenshot-1")
