@@ -19,7 +19,7 @@ def discover():
 	    Ether(src=mac,dst="ff:ff:ff:ff:ff:ff")/
 	    IP(src="0.0.0.0",dst="255.255.255.255")/
 	    UDP(sport=68,dport=67)/
-	    BOOTP(chaddr=chaddr,xid=random.randint(0, 0xFFFF))/
+	    BOOTP(chaddr=chaddr,xid=random.randint(0, 0xFFFFFFFF))/
 	    DHCP(options=[('message-type','discover'),('end')])
 	    )
 
